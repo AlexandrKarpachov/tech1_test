@@ -1,0 +1,241 @@
+{
+	"variables": [],
+	"info": {
+		"name": "test",
+		"_postman_id": "ac36e8bd-3646-c909-5a6c-9a19bcbce4b1",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"url": "http://localhost:5000/auth/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"username\",\n\t\"password\": \"password\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/auth/register",
+			"request": {
+				"url": "http://localhost:5000/auth/register",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"username2\",\n\t\"password\": \"Password_admin\"\n}"
+				},
+				"description": "registrate new App User"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/user/older-then?age=30",
+			"request": {
+				"url": {
+					"raw": "http://localhost:5000/user/older-then?age=30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"user",
+						"older-then"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "30",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"some data\",\n\t\"password\": \"admin\"\n}"
+				},
+				"description": "users older then 30 years"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/user/has-three-plus-articles",
+			"request": {
+				"url": "http://localhost:5000/user/has-three-plus-articles",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"some data\",\n\t\"password\": \"admin\"\n}"
+				},
+				"description": "User names which has 3+ articles"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/user/has-article-color",
+			"request": {
+				"url": {
+					"raw": "http://localhost:5000/user/has-article-color?color=blue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"user",
+						"has-article-color"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "blue",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"text\": \"some_text\",\n\t\"color\": \"red\"\n}"
+				},
+				"description": "User which have blue articles"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/user/create",
+			"request": {
+				"url": "http://localhost:5000/user/create",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"age\": \"50\",\n\t\"name\": \"Shakespeare\"\n}"
+				},
+				"description": "Creates new User"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/article/create",
+			"request": {
+				"url": "http://localhost:5000/article/create",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"text\": \"some_text\",\n\t\"color\": \"red\"\n}"
+				},
+				"description": "creates new article"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/article/create",
+			"request": {
+				"url": "http://localhost:5000/article/create",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"text\": \"some_text\",\n\t\"color\": \"eee\"\n}"
+				},
+				"description": "wrong color"
+			},
+			"response": []
+		}
+	]
+}

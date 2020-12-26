@@ -1,0 +1,319 @@
+{
+	"id": "ac36e8bd-3646-c909-5a6c-9a19bcbce4b1",
+	"name": "test",
+	"description": "",
+	"order": [
+		"8613aa2f-91f2-874e-1981-609a1b2604ce",
+		"a9b06196-c903-15d3-5d20-2cd1c1f0e42d",
+		"24555763-07ef-43da-e979-0db5180cf8bf",
+		"33e4e235-cd3a-acb7-3cf1-e2f549f40c7e",
+		"58dca910-6d5f-abb0-6818-374650563dbd",
+		"b8dac06a-3370-23a2-c4b8-259f81c1328f",
+		"6c44eb1e-92a1-605a-204b-925505fcae0a",
+		"a1514d70-b102-e173-68a1-605b29ef125b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1608976178308,
+	"owner": "11939418",
+	"public": false,
+	"requests": [
+		{
+			"id": "24555763-07ef-43da-e979-0db5180cf8bf",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/user/older-then?age=30",
+			"queryParams": [
+				{
+					"key": "age",
+					"value": "30",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ac36e8bd-3646-c909-5a6c-9a19bcbce4b1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:5000/user/older-then?age=30",
+			"description": "users older then 30 years",
+			"descriptionFormat": "html",
+			"time": 1608980355866,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\": \"some data\",\n\t\"password\": \"admin\"\n}"
+		},
+		{
+			"id": "33e4e235-cd3a-acb7-3cf1-e2f549f40c7e",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/user/has-three-plus-articles",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ac36e8bd-3646-c909-5a6c-9a19bcbce4b1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:5000/user/has-three-plus-articles",
+			"description": "User names which has 3+ articles",
+			"descriptionFormat": "html",
+			"time": 1608980438556,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\": \"some data\",\n\t\"password\": \"admin\"\n}"
+		},
+		{
+			"id": "58dca910-6d5f-abb0-6818-374650563dbd",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/user/has-article-color?color=blue",
+			"queryParams": [
+				{
+					"key": "color",
+					"value": "blue",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608981965258,
+			"name": "http://localhost:5000/user/has-article-color",
+			"description": "User which have blue articles",
+			"collectionId": "ac36e8bd-3646-c909-5a6c-9a19bcbce4b1",
+			"responses": [],
+			"rawModeData": "{\n\t\"text\": \"some_text\",\n\t\"color\": \"red\"\n}"
+		},
+		{
+			"id": "6c44eb1e-92a1-605a-204b-925505fcae0a",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/article/create",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ac36e8bd-3646-c909-5a6c-9a19bcbce4b1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:5000/article/create",
+			"description": "creates new article",
+			"descriptionFormat": "html",
+			"time": 1608981640306,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"text\": \"some_text\",\n\t\"color\": \"red\"\n}"
+		},
+		{
+			"id": "8613aa2f-91f2-874e-1981-609a1b2604ce",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/auth/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608979888587,
+			"name": "login",
+			"description": "",
+			"collectionId": "ac36e8bd-3646-c909-5a6c-9a19bcbce4b1",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\": \"username\",\n\t\"password\": \"password\"\n}"
+		},
+		{
+			"id": "a1514d70-b102-e173-68a1-605b29ef125b",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/article/create",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ac36e8bd-3646-c909-5a6c-9a19bcbce4b1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:5000/article/create",
+			"description": "wrong color",
+			"descriptionFormat": "html",
+			"time": 1608981671090,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"text\": \"some_text\",\n\t\"color\": \"eee\"\n}"
+		},
+		{
+			"id": "a9b06196-c903-15d3-5d20-2cd1c1f0e42d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/auth/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608982113817,
+			"name": "http://localhost:5000/auth/register",
+			"description": "registrate new App User",
+			"collectionId": "ac36e8bd-3646-c909-5a6c-9a19bcbce4b1",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\": \"username2\",\n\t\"password\": \"Password_admin\"\n}"
+		},
+		{
+			"id": "b8dac06a-3370-23a2-c4b8-259f81c1328f",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYwODk3OTgxMywiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1fQ.yLpZezaHdXoyrbXPTYPsGmmXSNTdpIXprTa93Cyqlm0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/user/create",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ac36e8bd-3646-c909-5a6c-9a19bcbce4b1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:5000/user/create",
+			"description": "Creates new User",
+			"descriptionFormat": "html",
+			"time": 1608981054498,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"age\": \"50\",\n\t\"name\": \"Shakespeare\"\n}"
+		}
+	]
+}

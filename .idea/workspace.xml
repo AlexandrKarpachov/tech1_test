@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46195bc0-60b9-4935-9817-92f53cc3120e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1mA8lwvToVNsgCvyxpEBDMLde8R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tech1.test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\test_tasks\Tech1_2\postman" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="UserControllerWithServiceAndRepoIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tech1_test_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech1.test.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech1.test.user" />
+      <option name="MAIN_CLASS_NAME" value="tech1.test.user.UserControllerWithServiceAndRepoIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerWithServiceIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tech1_test_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech1.test.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech1.test.user" />
+      <option name="MAIN_CLASS_NAME" value="tech1.test.user.UserControllerWithServiceIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerWithServiceIT.whenGetByMoreThen3Articles_thenReturnValidResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tech1_test_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech1.test.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech1.test.user" />
+      <option name="MAIN_CLASS_NAME" value="tech1.test.user.UserControllerWithServiceIT" />
+      <option name="METHOD_NAME" value="whenGetByMoreThen3Articles_thenReturnValidResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.whenGetByAgeGreaterThen_thenReturnCorrectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tech1_test_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech1.test.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech1.test.user" />
+      <option name="MAIN_CLASS_NAME" value="tech1.test.user.UserServiceTest" />
+      <option name="METHOD_NAME" value="whenGetByAgeGreaterThen_thenReturnCorrectList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Tech1_test_task" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tech1.test.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest.whenGetByAgeGreaterThen_thenReturnCorrectList" />
+        <item itemvalue="JUnit.UserControllerWithServiceAndRepoIT" />
+        <item itemvalue="JUnit.UserControllerWithServiceIT.whenGetByMoreThen3Articles_thenReturnValidResponse" />
+        <item itemvalue="JUnit.UserControllerWithServiceIT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46195bc0-60b9-4935-9817-92f53cc3120e" name="Default Changelist" comment="" />
+      <created>1608925189635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608925189635</updated>
+      <workItem from="1608925192930" duration="1074000" />
+      <workItem from="1608927186760" duration="1660000" />
+      <workItem from="1608929943569" duration="2290000" />
+      <workItem from="1608932456888" duration="1404000" />
+      <workItem from="1608970812211" duration="599000" />
+      <workItem from="1608976147168" duration="1417000" />
+      <workItem from="1608977973414" duration="1058000" />
+      <workItem from="1608979775267" duration="1785000" />
+      <workItem from="1608981580871" duration="2200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="628" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608931373913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="628" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608931373913" />
+    <state x="756" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1608931376608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1608931376608" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1608976426325">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608976426325" />
+    <state width="1611" height="293" key="GridCell.Tab.0.bottom" timestamp="1608982893289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893289" />
+    <state width="1611" height="293" key="GridCell.Tab.0.center" timestamp="1608982893289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893289" />
+    <state width="1611" height="293" key="GridCell.Tab.0.left" timestamp="1608982893289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893289" />
+    <state width="1611" height="293" key="GridCell.Tab.0.right" timestamp="1608982893289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893289" />
+    <state width="1611" height="293" key="GridCell.Tab.1.bottom" timestamp="1608982893290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893290" />
+    <state width="1611" height="293" key="GridCell.Tab.1.center" timestamp="1608982893290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893290" />
+    <state width="1611" height="293" key="GridCell.Tab.1.left" timestamp="1608982893289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893289" />
+    <state width="1611" height="293" key="GridCell.Tab.1.right" timestamp="1608982893290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893290" />
+    <state width="1611" height="293" key="GridCell.Tab.2.bottom" timestamp="1608982893290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893290" />
+    <state width="1611" height="293" key="GridCell.Tab.2.center" timestamp="1608982893290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893290" />
+    <state width="1611" height="293" key="GridCell.Tab.2.left" timestamp="1608982893290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893290" />
+    <state width="1611" height="293" key="GridCell.Tab.2.right" timestamp="1608982893290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1611" height="293" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608982893290" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tech1/test/user/UserServiceTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="t" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
